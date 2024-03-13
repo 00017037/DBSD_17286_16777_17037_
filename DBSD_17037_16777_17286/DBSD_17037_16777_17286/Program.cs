@@ -1,7 +1,29 @@
+using DBSD_17037_16777_17286.DAL.Infrastructure;
+using DBSD_17037_16777_17286.DAL.Models;
+using DBSD_17037_16777_17286.DAL.Repositories;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<MacroDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Macro")));
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+
+builder.Services.AddScoped<IRepository<Employee>,EmployeeRepository>();
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder.WithOrigins("http://localhost:4200") // Specify the client origin here
+                          .AllowAnyMethod()
+                          .AllowAnyHeader()
+                          .AllowCredentials());
+});
 
 var app = builder.Build();
 
