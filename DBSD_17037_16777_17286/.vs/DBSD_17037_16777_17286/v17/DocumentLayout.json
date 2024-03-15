@@ -3,100 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\infrastructure\\macrodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\infrastructure\\macrodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313185136_updateEmployee2121.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBSD_17037_16777_17286\\Migrations\\20240313185136_updateEmployee2121.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\infrastructure\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\infrastructure\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\migrations\\20240313183657_updateemployee212.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\migrations\\20240313183657_updateemployee212.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313183510_updateEmployee243.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBSD_17037_16777_17286\\Migrations\\20240313183510_updateEmployee243.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\migrations\\20240313182421_updateemployee24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\migrations\\20240313182421_updateemployee24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\migrations\\20240313182137_updateemployee2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\migrations\\20240313182137_updateemployee2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313181951_updateEmployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBSD_17037_16777_17286\\Migrations\\20240313181951_updateEmployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\views\\employee\\employeecreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\views\\employee\\employeecreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\views\\employee\\employeedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\views\\employee\\employeedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\views\\employee\\employees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\views\\employee\\employees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\migrations\\20240313175749_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\migrations\\20240313175749_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dbsd_17037_16777_17286.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\infrastructure\\macrodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\infrastructure\\macrodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\dal\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\dal\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|c:\\users\\botir\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dbsd_17286_16777_17037_\\dbsd_17037_16777_17286\\dbsd_17037_16777_17286\\migrations\\20240315071916_updatefoerignkeyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DFEC15-C011-4694-B00F-AAF357294B48}|DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj|solutionrelative:dbsd_17037_16777_17286\\migrations\\20240315071916_updatefoerignkeyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -105,320 +89,254 @@
       "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "DockedWidth": 595,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20240313185136_updateEmployee2121.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313185136_updateEmployee2121.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Migrations\\20240313185136_updateEmployee2121.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313185136_updateEmployee2121.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Migrations\\20240313185136_updateEmployee2121.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "DocumentIndex": 19,
+              "Title": "20240315071916_updateFoerignKeyReference.cs",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240315071916_updateFoerignKeyReference.cs",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Migrations\\20240315071916_updateFoerignKeyReference.cs",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240315071916_updateFoerignKeyReference.cs",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\Migrations\\20240315071916_updateFoerignKeyReference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T18:51:36.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20240313183657_updateEmployee212.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313183657_updateEmployee212.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Migrations\\20240313183657_updateEmployee212.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313183657_updateEmployee212.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Migrations\\20240313183657_updateEmployee212.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T18:36:58.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240313183510_updateEmployee243.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313183510_updateEmployee243.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Migrations\\20240313183510_updateEmployee243.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313183510_updateEmployee243.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Migrations\\20240313183510_updateEmployee243.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T18:35:10.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20240313182421_updateEmployee24.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313182421_updateEmployee24.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Migrations\\20240313182421_updateEmployee24.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313182421_updateEmployee24.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Migrations\\20240313182421_updateEmployee24.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T18:24:22.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20240313182137_updateEmployee2.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313182137_updateEmployee2.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Migrations\\20240313182137_updateEmployee2.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313182137_updateEmployee2.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Migrations\\20240313182137_updateEmployee2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T18:21:37.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20240313181951_updateEmployee.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313181951_updateEmployee.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Migrations\\20240313181951_updateEmployee.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313181951_updateEmployee.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Migrations\\20240313181951_updateEmployee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T18:19:51.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmployeeDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\employee\\EmployeeDetails.cshtml",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Views\\employee\\EmployeeDetails.cshtml",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\employee\\EmployeeDetails.cshtml",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Views\\employee\\EmployeeDetails.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T18:16:29.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Employees.cshtml",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\employee\\Employees.cshtml",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Views\\employee\\Employees.cshtml",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\employee\\Employees.cshtml",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Views\\employee\\Employees.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T18:15:40.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EmployeeCreate.cshtml",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\employee\\EmployeeCreate.cshtml",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Views\\employee\\EmployeeCreate.cshtml",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\employee\\EmployeeCreate.cshtml",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Views\\employee\\EmployeeCreate.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T18:14:21.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-15T07:19:16.895Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T18:10:18.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAA8wBMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T18:07:32.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20240313175749_initDB.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313175749_initDB.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Migrations\\20240313175749_initDB.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Migrations\\20240313175749_initDB.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Migrations\\20240313175749_initDB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:57:54.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Repositories\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Repositories\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Repositories\\EmployeeRepository.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Repositories\\EmployeeRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:16:23.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Repositories\\IRepository.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Repositories\\IRepository.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Repositories\\IRepository.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Repositories\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:14:09.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Program.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Program.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Program.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:12:57.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Department.cs",
               "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Models\\Department.cs",
               "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Department.cs",
               "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Models\\Department.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:12:43.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Customer.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Models\\Customer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:12:33.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-15T07:08:24.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Models\\Transaction.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Transaction.cs*",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Models\\Transaction.cs*",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:12:03.336Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\Employees\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Views\\Employees\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\Employees\\Delete.cshtml",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\Views\\Employees\\Delete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T06:56:55.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Employee.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Models\\Employee.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:11:49.854Z",
-              "EditorCaption": ""
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\Employees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Views\\Employees\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\Employees\\Edit.cshtml",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\Views\\Employees\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T06:56:17.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Models\\Person.cs",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Person.cs",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Models\\Person.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:11:38.996Z",
-              "EditorCaption": ""
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\Employees\\Create.cshtml",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Views\\Employees\\Create.cshtml",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\Employees\\Create.cshtml",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\Views\\Employees\\Create.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T06:55:43.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DBSD_17037_16777_17286",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\DBSD_17037_16777_17286.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-13T17:05:47.25Z",
-              "EditorCaption": ""
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\Employees\\Details.cshtml",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Views\\Employees\\Details.cshtml",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\Employees\\Details.cshtml",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\Views\\Employees\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T06:55:06.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\Views\\Employees\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T06:54:15.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MacroDbContext.cs",
               "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Infrastructure\\MacroDbContext.cs",
               "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Infrastructure\\MacroDbContext.cs",
               "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Infrastructure\\MacroDbContext.cs",
               "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Infrastructure\\MacroDbContext.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA0wCUAAABeAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:02:32.004Z",
+              "WhenOpened": "2024-03-15T06:36:21.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Infrastructure\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Infrastructure\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Infrastructure\\MappingProfile.cs",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Infrastructure\\MappingProfile.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T06:33:48.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\appsettings.json",
-              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\appsettings.json",
-              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\appsettings.json",
-              "RelativeToolTip": "DBSD_17037_16777_17286\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-13T16:28:06.219Z",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Employee.cs",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Models\\Employee.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T06:21:02.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 5,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Views\\_ViewImports.cshtml",
               "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "DBSD_17037_16777_17286\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-12T17:02:45.557Z",
+              "WhenOpened": "2024-03-15T06:17:41.48Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Program.cs",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Program.cs",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Program.cs",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T06:17:40.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBoAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T06:14:37.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T06:11:31.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T06:11:37.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T06:05:50.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Models\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Models\\EmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Models\\EmployeeViewModel.cs",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\Models\\EmployeeViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwCMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T06:04:00.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T06:04:00.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Person.cs",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T06:03:56.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "DBSD_17037_16777_17286\\DAL\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\botir\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DBSD_17286_16777_17037_\\DBSD_17037_16777_17286\\DBSD_17037_16777_17286\\DAL\\Models\\Transaction.cs",
+              "RelativeToolTip": "DBSD_17037_16777_17286\\DAL\\Models\\Transaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T06:03:35.432Z"
             }
           ]
         }

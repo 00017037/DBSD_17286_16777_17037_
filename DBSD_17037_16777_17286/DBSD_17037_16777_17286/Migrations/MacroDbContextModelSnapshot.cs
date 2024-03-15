@@ -24,56 +24,58 @@ namespace DBSD_17037_16777_17286.Migrations
 
             modelBuilder.Entity("DBSD_17037_16777_17286.DAL.Models.Customer", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<int>("LoyaltyPoints")
                         .HasColumnType("int");
 
-                    b.Property<int>("PersonID")
+                    b.Property<int?>("PersonId")
                         .HasColumnType("int");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
-                    b.HasIndex("PersonID");
+                    b.HasIndex("PersonId");
 
                     b.ToTable("Customers");
                 });
 
             modelBuilder.Entity("DBSD_17037_16777_17286.DAL.Models.Department", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int?>("ManagerID")
+                    b.Property<int?>("ManagerId")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
-                    b.HasIndex("ManagerID");
+                    b.HasIndex("ManagerId")
+                        .IsUnique()
+                        .HasFilter("[ManagerId] IS NOT NULL");
 
                     b.ToTable("Departments");
                 });
 
             modelBuilder.Entity("DBSD_17037_16777_17286.DAL.Models.Employee", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("DepartmentID")
+                    b.Property<int>("DepartmentId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("HireDate")
@@ -83,10 +85,10 @@ namespace DBSD_17037_16777_17286.Migrations
                         .HasPrecision(10, 2)
                         .HasColumnType("decimal(10,2)");
 
-                    b.Property<int?>("ManagerID")
+                    b.Property<int?>("ManagerId")
                         .HasColumnType("int");
 
-                    b.Property<int>("PersonID")
+                    b.Property<int>("PersonId")
                         .HasColumnType("int");
 
                     b.Property<byte[]>("Photo")
@@ -96,24 +98,27 @@ namespace DBSD_17037_16777_17286.Migrations
                     b.Property<bool>("isMaried")
                         .HasColumnType("bit");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
-                    b.HasIndex("DepartmentID");
+                    b.HasIndex("DepartmentId");
 
-                    b.HasIndex("ManagerID");
+                    b.HasIndex("Id")
+                        .HasFilter("[ManagerId] IS NOT NULL");
 
-                    b.HasIndex("PersonID");
+                    b.HasIndex("ManagerId");
+
+                    b.HasIndex("PersonId");
 
                     b.ToTable("Employees");
                 });
 
             modelBuilder.Entity("DBSD_17037_16777_17286.DAL.Models.Person", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("ContactDetails")
                         .IsRequired()
@@ -127,7 +132,7 @@ namespace DBSD_17037_16777_17286.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
                     b.ToTable("Persons");
                 });
@@ -140,13 +145,13 @@ namespace DBSD_17037_16777_17286.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
 
-                    b.Property<int>("CustomerID")
+                    b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("EmployeeID")
+                    b.Property<int>("EmployeeId")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Total")
@@ -155,20 +160,54 @@ namespace DBSD_17037_16777_17286.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("CustomerID");
+                    b.HasIndex("CustomerId");
 
-                    b.HasIndex("EmployeeID");
+                    b.HasIndex("EmployeeId");
 
                     b.ToTable("Transactions");
+                });
+
+            modelBuilder.Entity("DBSD_17037_16777_17286.Models.EmployeeViewModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("DepartmentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("HireDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("HourlyRate")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<bool>("IsMarried")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ManagerId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EmployeeViewModel");
                 });
 
             modelBuilder.Entity("DBSD_17037_16777_17286.DAL.Models.Customer", b =>
                 {
                     b.HasOne("DBSD_17037_16777_17286.DAL.Models.Person", "Person")
                         .WithMany()
-                        .HasForeignKey("PersonID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PersonId");
 
                     b.Navigation("Person");
                 });
@@ -176,8 +215,8 @@ namespace DBSD_17037_16777_17286.Migrations
             modelBuilder.Entity("DBSD_17037_16777_17286.DAL.Models.Department", b =>
                 {
                     b.HasOne("DBSD_17037_16777_17286.DAL.Models.Employee", "Manager")
-                        .WithMany()
-                        .HasForeignKey("ManagerID");
+                        .WithOne()
+                        .HasForeignKey("DBSD_17037_16777_17286.DAL.Models.Department", "ManagerId");
 
                     b.Navigation("Manager");
                 });
@@ -186,17 +225,17 @@ namespace DBSD_17037_16777_17286.Migrations
                 {
                     b.HasOne("DBSD_17037_16777_17286.DAL.Models.Department", "Department")
                         .WithMany()
-                        .HasForeignKey("DepartmentID")
+                        .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("DBSD_17037_16777_17286.DAL.Models.Employee", "Manager")
                         .WithMany()
-                        .HasForeignKey("ManagerID");
+                        .HasForeignKey("ManagerId");
 
                     b.HasOne("DBSD_17037_16777_17286.DAL.Models.Person", "Person")
                         .WithMany()
-                        .HasForeignKey("PersonID")
+                        .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -211,13 +250,13 @@ namespace DBSD_17037_16777_17286.Migrations
                 {
                     b.HasOne("DBSD_17037_16777_17286.DAL.Models.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("CustomerID")
+                        .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("DBSD_17037_16777_17286.DAL.Models.Employee", "Employee")
                         .WithMany()
-                        .HasForeignKey("EmployeeID")
+                        .HasForeignKey("EmployeeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

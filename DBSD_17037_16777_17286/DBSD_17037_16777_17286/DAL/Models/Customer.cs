@@ -8,11 +8,9 @@ namespace DBSD_17037_16777_17286.DAL.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
-        public int ID { get; set; }
+        public int Id { get; set; }
         public int LoyaltyPoints { get; set; }
-        public int PersonID { get; set; }
-
-        [ForeignKey("PersonID")]
-        public virtual Person ? Person { get; set; }
+        public Person?  Person { get; set; }
+        public int? PersonId { get; set; }
     }
 }

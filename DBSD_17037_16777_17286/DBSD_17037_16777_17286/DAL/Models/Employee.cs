@@ -9,29 +9,25 @@ namespace DBSD_17037_16777_17286.DAL.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
-        public int ID{ get; set; }
-        public int DepartmentID { get; set; }
+        public int Id{ get; set; }
         public DateTime HireDate { get; set; }
         public decimal HourlyRate { get; set; }
-        public int? ManagerID { get; set; } // Nullable for employees without managers
-        public int PersonID { get; set; }
 
         public bool isMaried { get; set; }
 
          public byte[] Photo { get; set; }
 
 
-        [ForeignKey("DepartmentID")]
         public virtual Department Department { get; set; }
 
-        [ForeignKey("ManagerID")]
-        public virtual Employee Manager { get; set; } // Self-referencing relationship
+        public int DepartmentId { get; set; }
 
-        [ForeignKey("PersonID")]
+        public virtual  Employee Manager { get; set; } // Self-referencing relationship
+        public int? ManagerId { get; set; } // Nullable for employees without managers
+
         public virtual Person Person { get; set; }
 
-
-     
+        public int PersonId { get; set; }
 
     }
 }

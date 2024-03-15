@@ -1,5 +1,7 @@
-﻿using DBSD_17037_16777_17286.DAL.Infrastructure;
+﻿using AutoMapper;
+using DBSD_17037_16777_17286.DAL.Infrastructure;
 using DBSD_17037_16777_17286.DAL.Models;
+using DBSD_17037_16777_17286.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace DBSD_17037_16777_17286.DAL.Repositories
@@ -15,18 +17,30 @@ namespace DBSD_17037_16777_17286.DAL.Repositories
 
         public IEnumerable<Employee> GetAll()
         {
-            return _context.Employees.ToList();
+            var empl = _context.Employees;
+            
+             
+            
+            var employees = _context.Employees
+                                    .Include(e => e.Person) // Include Person navigation property
+                                    .ToList(); // Materialize query to avoid lazy loading issues
+
+            return employees;
         }
 
         public Employee GetById(int id)
         {
-            return _context.Employees.Find(id);
+            var employee = _context.Employees
+                        .Include(e => e.Person)
+                        .SingleOrDefault(e => e.Id == id);
+            return employee;
         }
 
-        public void Insert(Employee entity)
+        public int Insert(Employee entity)
         {
-            _context.Employees.Add(entity);
+            var employee = _context.Employees.Add(entity).Entity;
             _context.SaveChanges();
+            return employee.Id;
         }
 
         public void Update(Employee entity)

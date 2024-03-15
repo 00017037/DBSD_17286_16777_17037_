@@ -8,11 +8,11 @@ namespace DBSD_17037_16777_17286.DAL.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
-        public int ID { get; set; }
-        public int? ManagerID { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
 
-        [ForeignKey("ManagerID")]
-        public virtual Employee ? Manager { get; set; } 
+        public virtual Employee ? Manager { get; set; }
+        public int? ManagerId { get; set; }
+
     }
 }

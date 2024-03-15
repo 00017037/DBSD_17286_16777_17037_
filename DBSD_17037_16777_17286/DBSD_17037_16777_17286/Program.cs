@@ -1,11 +1,20 @@
 using DBSD_17037_16777_17286.DAL.Infrastructure;
 using DBSD_17037_16777_17286.DAL.Models;
 using DBSD_17037_16777_17286.DAL.Repositories;
+using DBSD_17037_16777_17286.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddAutoMapper(typeof(Program));
 
-builder.Services.AddDbContext<MacroDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Macro")));
+
+IConfiguration config = builder.Configuration;
+
+string connStr = config.GetConnectionString("Macro")
+    .Replace("|DataDirectory|", builder.Environment.ContentRootPath);
+builder.Services.AddDbContext<MacroDbContext>(options =>
+    options.UseSqlServer(connStr)
+);
 
 
 // Add services to the container.
