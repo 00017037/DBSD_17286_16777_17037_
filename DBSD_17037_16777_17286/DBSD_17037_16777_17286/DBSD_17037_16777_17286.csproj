@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="DAL\EF\" />
-    <Folder Include="Data\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -102,9 +102,6 @@ namespace DBSD_17037_16777_17286.Migrations
 
                     b.HasIndex("DepartmentId");
 
-                    b.HasIndex("Id")
-                        .HasFilter("[ManagerId] IS NOT NULL");
-
                     b.HasIndex("ManagerId");
 
                     b.HasIndex("PersonId");
@@ -175,11 +172,10 @@ namespace DBSD_17037_16777_17286.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("DepartmentId")
+                    b.Property<int?>("DepartmentId")
                         .HasColumnType("int");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("HireDate")
@@ -192,7 +188,6 @@ namespace DBSD_17037_16777_17286.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("ManagerId")

@@ -23,6 +23,7 @@ builder.Services.AddControllersWithViews();
 
 
 builder.Services.AddScoped<IRepository<Employee>,EmployeeRepository>();
+builder.Services.AddScoped<IRepository<Person>,PersonRepository>();
 
 
 builder.Services.AddCors(options =>

@@ -13,26 +13,31 @@ namespace DBSD_17037_16777_17286.DAL.Repositories
         public EmployeeRepository(MacroDbContext context)
         {
             _context = context;
+
         }
 
-        public IEnumerable<Employee> GetAll()
+        public async Task<IEnumerable<Employee>> GetAll()
         {
-            var empl = _context.Employees;
-            
-             
-            
-            var employees = _context.Employees
-                                    .Include(e => e.Person) // Include Person navigation property
-                                    .ToList(); // Materialize query to avoid lazy loading issues
+            var empl = _context.Employees.ToList();
+
+
+            Console.WriteLine(empl);
+            var employees =  await _context.Employees
+                                    .Include(e=>e.Person)
+                                    .Include(e=>e.Department)
+                                    .Include(e=>e.Manager)
+                                    .ToListAsync(); // Materialize query to avoid lazy loading issues
 
             return employees;
         }
 
-        public Employee GetById(int id)
+        public async Task<Employee> GetById(int id)
         {
-            var employee = _context.Employees
+            var employee = await  _context.Employees
                         .Include(e => e.Person)
-                        .SingleOrDefault(e => e.Id == id);
+                         .Include(e => e.Department)
+                         .Include(e => e.Manager.Person)
+                        .SingleOrDefaultAsync(e => e.Id == id);
             return employee;
         }
 

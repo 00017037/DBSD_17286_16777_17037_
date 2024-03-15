@@ -28,11 +28,15 @@
                 @Html.DisplayNameFor(model => model.IsMarried)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ManagerId)
+                @Html.DisplayNameFor(model => model.ManagerName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DepartmentId)
+                @Html.DisplayNameFor(model => model.ManagerSurname)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Depatment)
+            </th>
+           
             <th></th>
         </tr>
     </thead>
@@ -55,11 +59,13 @@
                 @Html.DisplayFor(modelItem => item.IsMarried)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ManagerId)
+                @Html.DisplayFor(modelItem => item.ManagerName)
+                    @Html.DisplayFor(modelItem => item.ManagerSurname)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DepartmentId)
+                @Html.DisplayFor(modelItem => item.Depatment)
             </td>
+
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |

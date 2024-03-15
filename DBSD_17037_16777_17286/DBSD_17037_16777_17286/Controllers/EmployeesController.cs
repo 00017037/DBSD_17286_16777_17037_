@@ -14,35 +14,38 @@ namespace DBSD_17037_16777_17286.Controllers
         private readonly IMapper _mapper;
 
         public EmployeesController(IRepository<Employee> employeeRepository, IMapper mapper)
+        
         {
             _employeeRepository = employeeRepository;
             _mapper = mapper;
         }
 
         // GET: Employees
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             
-            var employees = _employeeRepository.GetAll();
-            var viewModels = employees.Select(_mapper.Map<EmployeeViewModel>);
+            var employees = await _employeeRepository.GetAll();
+            Console.WriteLine(employees);
+            var viewModels =  employees.Select(_mapper.Map<EmployeeViewModel>);
             return View(viewModels);
         }
 
         // GET: Employees/Details/5
-        public IActionResult Details(int? id)
+        public async Task< IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var employeeViewModel = _employeeRepository.GetById(id.Value);
-            if (employeeViewModel == null)
+            var employee = await _employeeRepository.GetById(id.Value);
+            var employeeView =  _mapper.Map<EmployeeViewModel>(employee);
+            if (employeeView == null)
             {
                 return NotFound();
             }
 
-            return View(employeeViewModel);
+            return View(employeeView);
         }
 
         // GET: Employees/Create
@@ -69,21 +72,21 @@ namespace DBSD_17037_16777_17286.Controllers
         }
 
         // GET: Employees/Edit/5
-        public IActionResult Edit(int? id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var employee =  _employeeRepository.GetById(id.Value);
+            var employee = await  _employeeRepository.GetById(id.Value);
             if (employee == null)
             {
                 return NotFound();
             }
-
+            var employeeView = _mapper.Map<EmployeeViewModel>(employee);
             // (Populate dropdown data again if needed)
-            return View(_mapper.Map<EmployeeViewModel>(employee));
+            return View(employeeView);
         }
 
         // POST: Employees/Edit/5
@@ -121,20 +124,22 @@ namespace DBSD_17037_16777_17286.Controllers
         }
 
         // GET: Employees/Delete/5
-        public IActionResult Delete(int? id)
+        public async  Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var employeeViewModel = _employeeRepository.GetById(id.Value);
-            if (employeeViewModel == null)
+            var employee =  await _employeeRepository.GetById(id.Value);
+            var employeeView = _mapper.Map<EmployeeViewModel>(employee);
+
+            if (employeeView == null)
             {
                 return NotFound();
             }
 
-            return View(employeeViewModel);
+            return View(employeeView);
         }
 
         // POST: Employees/Delete/5
