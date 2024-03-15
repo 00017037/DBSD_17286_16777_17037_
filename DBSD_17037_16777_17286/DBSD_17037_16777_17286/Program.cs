@@ -1,6 +1,7 @@
 using DBSD_17037_16777_17286.DAL.Infrastructure;
 using DBSD_17037_16777_17286.DAL.Models;
 using DBSD_17037_16777_17286.DAL.Repositories;
+using DBSD_17037_16777_17286.DAL.Repositories.DBSD_17037_16777_17286.DAL.Repositories;
 using DBSD_17037_16777_17286.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -24,6 +25,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IRepository<Employee>,EmployeeRepository>();
 builder.Services.AddScoped<IRepository<Person>,PersonRepository>();
+builder.Services.AddScoped<IRepository<Department>, DepartmentRepository>();
 
 
 builder.Services.AddCors(options =>

@@ -57,8 +57,19 @@ namespace DBSD_17037_16777_17286.DAL.Repositories
         public void Delete(int id)
         {
             Employee entity = _context.Employees.Find(id);
-            _context.Employees.Remove(entity);
-            _context.SaveChanges();
+            if (entity != null)
+            {
+                // Find employees referencing this employee as manager
+                var employeesWithThisManager = _context.Employees.Where(e => e.ManagerId == id);
+                foreach (var employee in employeesWithThisManager)
+                {
+                    // Set ManagerId to null for each referencing employee
+                    employee.ManagerId = null;
+                }
+
+                _context.Employees.Remove(entity);
+                _context.SaveChanges();
+            }
         }
     }
 }

@@ -7,6 +7,9 @@ namespace DBSD_17037_16777_17286.Models
     public class EmployeeViewModel
     {
         public int Id { get; set; }
+        [Display(Name = "PersonId")]
+        public int PersonId { get; set; }
+
 
         [Display(Name = "First Name")]
         public string ? FirstName { get; set; }
@@ -26,18 +29,27 @@ namespace DBSD_17037_16777_17286.Models
         [Display(Name = "Photo")]
         public IFormFile ? PhotoFile { get; set; }
 
+        [Display(Name = "ManagerId")]
+        public int? ManagerId { get; set; }
+
+
         [Display(Name = "ManagerName")]
         public string? ManagerName { get; set; }
 
         [Display(Name = "ManagerSurname")]
         public string? ManagerSurname { get; set; }
 
+
         // Selectable Departments
         [Display(Name = "Department")]
         public string ? Depatment { get; set; }
 
+
+
         [Display(Name = "Department")]
         public int DepartmentId { get; set; }
+
+
 
 
     }

@@ -15,7 +15,7 @@ namespace DBSD_17037_16777_17286.DAL.Models
 
         public bool isMaried { get; set; }
 
-         public byte[] Photo { get; set; }
+         public byte[]? Photo { get; set; }
 
 
         public virtual Department Department { get; set; }

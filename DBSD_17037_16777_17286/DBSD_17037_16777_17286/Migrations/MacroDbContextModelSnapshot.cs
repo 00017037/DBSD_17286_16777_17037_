@@ -92,7 +92,6 @@ namespace DBSD_17037_16777_17286.Migrations
                         .HasColumnType("int");
 
                     b.Property<byte[]>("Photo")
-                        .IsRequired()
                         .HasColumnType("varbinary(max)");
 
                     b.Property<bool>("isMaried")
@@ -101,6 +100,9 @@ namespace DBSD_17037_16777_17286.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("DepartmentId");
+
+                    b.HasIndex("Id")
+                        .HasFilter("[ManagerId] IS NOT NULL");
 
                     b.HasIndex("ManagerId");
 
@@ -172,8 +174,11 @@ namespace DBSD_17037_16777_17286.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int?>("DepartmentId")
+                    b.Property<int>("DepartmentId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Depatment")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")
                         .HasColumnType("nvarchar(max)");
@@ -191,6 +196,15 @@ namespace DBSD_17037_16777_17286.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("ManagerId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ManagerName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ManagerSurname")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PersonId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
