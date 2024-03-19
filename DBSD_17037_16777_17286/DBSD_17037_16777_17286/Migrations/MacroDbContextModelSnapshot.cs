@@ -94,7 +94,7 @@ namespace DBSD_17037_16777_17286.Migrations
                     b.Property<byte[]>("Photo")
                         .HasColumnType("varbinary(max)");
 
-                    b.Property<bool>("isMaried")
+                    b.Property<bool>("isMarried")
                         .HasColumnType("bit");
 
                     b.HasKey("Id");
@@ -120,7 +120,6 @@ namespace DBSD_17037_16777_17286.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("ContactDetails")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")

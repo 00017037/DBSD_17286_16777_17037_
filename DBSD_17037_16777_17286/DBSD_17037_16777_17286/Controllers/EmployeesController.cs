@@ -55,8 +55,24 @@ namespace DBSD_17037_16777_17286.Controllers
         }
 
         // GET: Employees/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            var managers = await _employeeRepository.GetAll(); // Assuming you have a method to get all managers
+            var departments = await _departmentRepository.GetAll(); // Assuming you have a method to get all departments
+
+            // Populate SelectListItem for managers
+            ViewBag.ManagerList = managers.Select(m => new SelectListItem
+            {
+                Text = $"{m.Person.FirstName} {m.Person.LastName}",
+                Value = m.Id.ToString(),
+            }).ToList();
+
+            // Populate SelectListItem for departments
+            ViewBag.DepartmentList = departments.Select(d => new SelectListItem
+            {
+                Text = d.Name,
+                Value = d.Id.ToString(),
+            }).ToList();
             // Populate data for dropdowns (if necessary) e.g., Departments
             // ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name");
             return View();
@@ -69,10 +85,24 @@ namespace DBSD_17037_16777_17286.Controllers
         {
             if (ModelState.IsValid)
             {
-                var employee = _mapper.Map<Employee>(employeeViewModel);
+
+                var person = new Person { FirstName = employeeViewModel.FirstName,LastName = employeeViewModel.LastName };
+
+                var createdPersonId = _personRepository.Insert(person);
+                var employee = new Employee
+                {
+                    Id = employeeViewModel.Id,
+                    ManagerId = employeeViewModel.ManagerId,
+                    PersonId =createdPersonId,
+                    DepartmentId = employeeViewModel.DepartmentId,
+                    HireDate = employeeViewModel.HireDate,
+                    HourlyRate = employeeViewModel.HourlyRate,
+                    isMarried = employeeViewModel.IsMarried
+                };
                 _employeeRepository.Insert(employee);
                 return RedirectToAction(nameof(Index));
             }
+
             // (Populate dropdown data again if needed)
             return View(employeeViewModel);
         }
@@ -141,8 +171,9 @@ namespace DBSD_17037_16777_17286.Controllers
                         ManagerId = employeeViewModel.ManagerId,
                         PersonId = employeeViewModel.PersonId,
                         DepartmentId = employeeViewModel.DepartmentId,
+                        HireDate = employeeViewModel.HireDate,
                         HourlyRate = employeeViewModel.HourlyRate,
-                        isMaried = employeeViewModel.IsMarried
+                        isMarried = employeeViewModel.IsMarried
                     };
                     _employeeRepository.Update(employee);
                 }

@@ -13,7 +13,7 @@ namespace DBSD_17037_16777_17286.DAL.Models
         public DateTime HireDate { get; set; }
         public decimal HourlyRate { get; set; }
 
-        public bool isMaried { get; set; }
+        public bool isMarried { get; set; }
 
          public byte[]? Photo { get; set; }
 
