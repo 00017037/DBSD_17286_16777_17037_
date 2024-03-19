@@ -97,7 +97,7 @@ namespace DBSD_17037_16777_17286.Controllers
                     DepartmentId = employeeViewModel.DepartmentId,
                     HireDate = employeeViewModel.HireDate,
                     HourlyRate = employeeViewModel.HourlyRate,
-                    isMarried = employeeViewModel.IsMarried
+                    IsMarried = employeeViewModel.IsMarried
                 };
                 _employeeRepository.Insert(employee);
                 return RedirectToAction(nameof(Index));
@@ -173,7 +173,7 @@ namespace DBSD_17037_16777_17286.Controllers
                         DepartmentId = employeeViewModel.DepartmentId,
                         HireDate = employeeViewModel.HireDate,
                         HourlyRate = employeeViewModel.HourlyRate,
-                        isMarried = employeeViewModel.IsMarried
+                        IsMarried = employeeViewModel.IsMarried
                     };
                     _employeeRepository.Update(employee);
                 }
