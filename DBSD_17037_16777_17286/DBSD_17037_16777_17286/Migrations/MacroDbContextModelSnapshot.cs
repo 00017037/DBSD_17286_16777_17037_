@@ -85,6 +85,9 @@ namespace DBSD_17037_16777_17286.Migrations
                         .HasPrecision(10, 2)
                         .HasColumnType("decimal(10,2)");
 
+                    b.Property<bool>("IsMarried")
+                        .HasColumnType("bit");
+
                     b.Property<int?>("ManagerId")
                         .HasColumnType("int");
 
@@ -93,9 +96,6 @@ namespace DBSD_17037_16777_17286.Migrations
 
                     b.Property<byte[]>("Photo")
                         .HasColumnType("varbinary(max)");
-
-                    b.Property<bool>("isMarried")
-                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 
