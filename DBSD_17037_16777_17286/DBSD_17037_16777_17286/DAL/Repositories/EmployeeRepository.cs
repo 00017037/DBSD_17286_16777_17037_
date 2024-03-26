@@ -145,7 +145,7 @@ namespace DBSD_17037_16777_17286.DAL.Repositories
                 PersonId = reader.GetInt32(reader.GetOrdinal("PersonId")),
                 Person = new Person
                 {
-                    ContactDetails = reader.GetString(reader.GetOrdinal("ContactDetails")),
+                    ContactDetails = reader.IsDBNull(reader.GetOrdinal("ContactDetails")) ? "" : reader.GetString(reader.GetOrdinal("ContactDetails")),
                     FirstName = reader.GetString(reader.GetOrdinal("FirstName")),
                     LastName = reader.GetString(reader.GetOrdinal("LastName"))
                 }
