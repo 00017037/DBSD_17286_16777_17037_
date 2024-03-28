@@ -36,6 +36,9 @@ namespace DBSD_17037_16777_17286.Migrations
                     b.Property<int?>("PersonId")
                         .HasColumnType("int");
 
+                    b.Property<int>("TotalTransactionsAmount")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("PersonId");
@@ -163,52 +166,6 @@ namespace DBSD_17037_16777_17286.Migrations
                     b.HasIndex("EmployeeId");
 
                     b.ToTable("Transactions");
-                });
-
-            modelBuilder.Entity("DBSD_17037_16777_17286.Models.EmployeeViewModel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("DepartmentId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Depatment")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("HireDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<decimal>("HourlyRate")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<bool>("IsMarried")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("LastName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("ManagerId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ManagerName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ManagerSurname")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("PersonId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("EmployeeViewModel");
                 });
 
             modelBuilder.Entity("DBSD_17037_16777_17286.DAL.Models.Customer", b =>

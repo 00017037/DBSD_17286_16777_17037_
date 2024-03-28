@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DBSD_17037_16777_17286.Migrations
 {
-    public partial class init1 : Migration
+    public partial class UpdateCustomer : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -15,7 +15,7 @@ namespace DBSD_17037_16777_17286.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ContactDetails = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ContactDetails = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -31,7 +31,8 @@ namespace DBSD_17037_16777_17286.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     LoyaltyPoints = table.Column<int>(type: "int", nullable: false),
-                    PersonId = table.Column<int>(type: "int", nullable: true)
+                    PersonId = table.Column<int>(type: "int", nullable: true),
+                    TotalTransactionsAmount = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -65,10 +66,9 @@ namespace DBSD_17037_16777_17286.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     HireDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     HourlyRate = table.Column<decimal>(type: "decimal(10,2)", precision: 10, scale: 2, nullable: false),
-                    isMaried = table.Column<bool>(type: "bit", nullable: false),
-                    Photo = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
+                    IsMarried = table.Column<bool>(type: "bit", nullable: false),
+                    Photo = table.Column<byte[]>(type: "varbinary(max)", nullable: true),
                     DepartmentId = table.Column<int>(type: "int", nullable: false),
-                    EmployeeType = table.Column<int>(type: "int", nullable: false),
                     ManagerId = table.Column<int>(type: "int", nullable: true),
                     PersonId = table.Column<int>(type: "int", nullable: false)
                 },

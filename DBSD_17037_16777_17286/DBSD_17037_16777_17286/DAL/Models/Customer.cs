@@ -12,5 +12,7 @@ namespace DBSD_17037_16777_17286.DAL.Models
         public int LoyaltyPoints { get; set; }
         public Person?  Person { get; set; }
         public int? PersonId { get; set; }
+
+        public int TotalTransactionsAmount { get; set; }
     }
 }

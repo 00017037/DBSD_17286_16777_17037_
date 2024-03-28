@@ -11,12 +11,13 @@ namespace DBSD_17037_16777_17286.DAL.Infrastructure
         public MacroDbContext(DbContextOptions<MacroDbContext> options) : base(options) { }
 
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+
 
         public DbSet<Person> Persons { get; set; }
          
         public DbSet<Transaction> Transactions { get; set; }
          
-        public DbSet<Customer> Customers { get; set; }  
 
         public DbSet<Department> Departments { get; set; }
 
@@ -70,8 +71,6 @@ namespace DBSD_17037_16777_17286.DAL.Infrastructure
 
         }
 
-
-        public DbSet<DBSD_17037_16777_17286.Models.EmployeeViewModel>? EmployeeViewModel { get; set; }
 
 
         }

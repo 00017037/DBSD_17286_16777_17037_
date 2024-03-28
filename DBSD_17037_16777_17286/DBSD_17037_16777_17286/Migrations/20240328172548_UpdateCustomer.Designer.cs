@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DBSD_17037_16777_17286.Migrations
 {
     [DbContext(typeof(MacroDbContext))]
-    [Migration("20240315180753_photoOptional")]
-    partial class photoOptional
+    [Migration("20240328172548_UpdateCustomer")]
+    partial class UpdateCustomer
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -36,6 +36,9 @@ namespace DBSD_17037_16777_17286.Migrations
                         .HasColumnType("int");
 
                     b.Property<int?>("PersonId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TotalTransactionsAmount")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -87,6 +90,9 @@ namespace DBSD_17037_16777_17286.Migrations
                         .HasPrecision(10, 2)
                         .HasColumnType("decimal(10,2)");
 
+                    b.Property<bool>("IsMarried")
+                        .HasColumnType("bit");
+
                     b.Property<int?>("ManagerId")
                         .HasColumnType("int");
 
@@ -95,9 +101,6 @@ namespace DBSD_17037_16777_17286.Migrations
 
                     b.Property<byte[]>("Photo")
                         .HasColumnType("varbinary(max)");
-
-                    b.Property<bool>("isMaried")
-                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 
@@ -122,7 +125,6 @@ namespace DBSD_17037_16777_17286.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("ContactDetails")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")
@@ -166,52 +168,6 @@ namespace DBSD_17037_16777_17286.Migrations
                     b.HasIndex("EmployeeId");
 
                     b.ToTable("Transactions");
-                });
-
-            modelBuilder.Entity("DBSD_17037_16777_17286.Models.EmployeeViewModel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("DepartmentId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Depatment")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("HireDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<decimal>("HourlyRate")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<bool>("IsMarried")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("LastName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("ManagerId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ManagerName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ManagerSurname")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("PersonId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("EmployeeViewModel");
                 });
 
             modelBuilder.Entity("DBSD_17037_16777_17286.DAL.Models.Customer", b =>

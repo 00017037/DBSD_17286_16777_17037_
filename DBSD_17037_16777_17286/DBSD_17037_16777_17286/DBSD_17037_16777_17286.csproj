@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="DAL\EF\" />
     <Folder Include="Data\" />
+    <Folder Include="Migrations\" />
     <Folder Include="Models\" />
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\images\" />
