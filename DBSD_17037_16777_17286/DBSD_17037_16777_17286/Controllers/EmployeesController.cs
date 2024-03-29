@@ -6,6 +6,7 @@ using DBSD_17037_16777_17286.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.Text;
 
 namespace DBSD_17037_16777_17286.Controllers
 {
@@ -34,6 +35,51 @@ namespace DBSD_17037_16777_17286.Controllers
             Console.WriteLine(employees);
             var viewModels =  employees.Select(_mapper.Map<EmployeeViewModel>);
             return View(viewModels);
+        }
+
+        public IActionResult ExportToJson()
+        {
+            try
+            {
+                var json = _employeeRepository.ExportToJson(0, null, null, null, true, null, null);
+
+                if (!string.IsNullOrEmpty(json))
+                {
+
+                    return File(Encoding.UTF8.GetBytes(json), "application/json", "employee.json");
+                }
+                else
+                {
+                    return Content("No data available to export to JSON.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error exporting data to JSON: {ex.Message}");
+                return Content("An error occurred while exporting data to JSON.");
+            }
+        }
+
+        public IActionResult ExportToXml()
+        {
+            try
+            {
+                var xml = _employeeRepository.ExportToXml(0, null, null, null, false, null, null);
+
+                if (!string.IsNullOrEmpty(xml))
+                {
+                    return File(Encoding.UTF8.GetBytes(xml), "application/xml", "employee.xml");
+                }
+                else
+                {
+                    return Content("No data available to export to XML.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error exporting data to XML: {ex.Message}");
+                return Content("An error occurred while exporting data to XML.");
+            }
         }
 
         // GET: Employees/Details/5

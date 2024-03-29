@@ -4,11 +4,11 @@ using DBSD_17037_16777_17286.DAL.Models;
 using DBSD_17037_16777_17286.Models;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.Data;
+using System.Collections.Generic;
 using System.Data.Common;
 using System.Threading.Tasks;
+using Dapper;
 
 namespace DBSD_17037_16777_17286.DAL.Repositories
 {
@@ -21,6 +21,42 @@ namespace DBSD_17037_16777_17286.DAL.Repositories
             _context = context;
         }
 
+        public string ExportToJson(int Id, string? FirstName, string? LastName, DateTime? HireDate, Boolean IsMarried, string? ManagerFirstName, string? ManagerLastName)
+        {
+            try
+            {
+                // Retrieve connection string from DbContext
+                string connectionString = _context.Database.GetDbConnection().ConnectionString;
+
+                using var conn = new SqlConnection(connectionString);
+                conn.Open();
+
+                // Create a command object
+                using var command = new SqlCommand("udpExportEmployeeDataToJson", conn);
+                command.CommandType = CommandType.StoredProcedure;
+
+                command.Parameters.AddWithValue("@Id", Id != null ? Id : DBNull.Value);
+                command.Parameters.AddWithValue("@FirstName", FirstName != null ? FirstName : DBNull.Value);
+                command.Parameters.AddWithValue("@LastName", LastName != null ? LastName : DBNull.Value);
+                command.Parameters.AddWithValue("@HireDate", HireDate != null ? HireDate : DBNull.Value);
+                command.Parameters.AddWithValue("@IsMarried", IsMarried != null ? IsMarried : DBNull.Value);
+                command.Parameters.AddWithValue("@ManagerFirstName", ManagerFirstName != null ? ManagerFirstName : DBNull.Value);
+                command.Parameters.AddWithValue("@ManagerLAstName", ManagerLastName != null ? ManagerLastName : DBNull.Value);
+
+
+                // Execute the command and retrieve JSON result
+                var jsonResult = (string)command.ExecuteScalar();
+
+                return jsonResult ?? ""; // Return JSON result or empty string if null
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error exporting data to JSON: {ex.Message}");
+                return ""; // Return empty string in case of error
+            }
+        }
+
+       
         public async Task<IEnumerable<Employee>> GetAll()
         {
             var employees = new List<Employee>();
@@ -168,6 +204,40 @@ namespace DBSD_17037_16777_17286.DAL.Repositories
             }
 
             return employee;
+        }
+
+        public string ExportToXml(int Id, string? FirstName, string? LastName, DateTime? HireDate, bool IsMarried, string? ManagerFirstName, string? ManagerLastName)
+        {
+            try
+            {
+                // Retrieve connection string from DbContext
+                string connectionString = _context.Database.GetDbConnection().ConnectionString;
+
+                using var conn = new SqlConnection(connectionString);
+                conn.Open();
+
+                // Create a command object
+                using var command = new SqlCommand("udpExportEmployeeDataToXml", conn);
+                command.CommandType = CommandType.StoredProcedure;
+
+                command.Parameters.AddWithValue("@Id", Id);
+                command.Parameters.AddWithValue("@FirstName", FirstName != null ? FirstName : DBNull.Value);
+                command.Parameters.AddWithValue("@LastName", LastName != null ? LastName : DBNull.Value);
+                command.Parameters.AddWithValue("@HireDate", HireDate != null ? HireDate : DBNull.Value);
+                command.Parameters.AddWithValue("@IsMarried", IsMarried);
+                command.Parameters.AddWithValue("@ManagerFirstName", ManagerFirstName != null ? ManagerFirstName : DBNull.Value);
+                command.Parameters.AddWithValue("@ManagerLastName", ManagerLastName != null ? ManagerLastName : DBNull.Value);
+
+                // Execute the command and retrieve XML result
+                var xmlResult = (string)command.ExecuteScalar();
+
+                return xmlResult ?? ""; // Return XML result or empty string if null
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error exporting data to XML: {ex.Message}");
+                return ""; // Return empty string in case of error
+            }
         }
     }
 }

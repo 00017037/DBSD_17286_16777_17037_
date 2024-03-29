@@ -45,5 +45,15 @@ namespace DBSD_17037_16777_17286.DAL.Repositories
                 _context.SaveChanges();
             }
         }
+
+        public string ExportToXml(int Id, string? FirstName, string? LastName, DateTime? HireDate, bool IsMarried, string? ManagerFirstName, string? ManagerLastName)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string ExportToJson(int Id, string? FirstName, string? LastName, DateTime? HireDate, bool IsMarried, string? ManagerFirstName, string? ManagerLastName)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
