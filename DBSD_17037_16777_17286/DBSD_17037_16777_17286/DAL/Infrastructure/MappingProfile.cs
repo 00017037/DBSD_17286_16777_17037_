@@ -19,6 +19,7 @@ namespace DBSD_17037_16777_17286.DAL.Infrastructure
                    .ForMember(dest => dest.IsMarried, opt => opt.MapFrom(src => src.IsMarried))
                 .ForMember(dest => dest.ManagerName, opt => opt.MapFrom(src => src.Manager.Person.FirstName))
                 .ForMember(dest => dest.ManagerSurname, opt => opt.MapFrom(src => src.Manager.Person.LastName))
+                .ForMember(dest=>dest.PhotoFile, opt=> opt.MapFrom(src=>src.Photo))
                 .ReverseMap();
 
 
