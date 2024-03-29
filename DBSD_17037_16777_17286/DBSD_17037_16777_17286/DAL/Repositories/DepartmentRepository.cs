@@ -63,6 +63,7 @@
             }
 
             public string ExportToJson(int Id, string? FirstName, string? LastName, DateTime? HireDate, bool IsMarried, string? ManagerFirstName, string? ManagerLastName)
+            public Task<IEnumerable<Department>>? Filter(string firstName, string lastName, string departmentName, DateTime? hireDate, string sortField, bool sortDesc, int page, int pageSize)
             {
                 throw new NotImplementedException();
             }

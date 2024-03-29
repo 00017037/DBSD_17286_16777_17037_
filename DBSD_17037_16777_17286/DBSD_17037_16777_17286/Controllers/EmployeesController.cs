@@ -124,10 +124,57 @@ namespace DBSD_17037_16777_17286.Controllers
             return View();
         }
 
+
+        //Filter: Employees/Filter 
+        public async Task<int> GetTotalRows()
+        {
+            var employees = await this._employeeRepository.GetAll();
+            int count = 0;
+            foreach (var item in employees)
+            {
+                count++;
+            }
+
+            return count;
+        }
+        public async Task<IActionResult> Filter(EmployeeFilterModel filterModel)
+        {
+            try
+            {
+              
+                int  totalRows = await GetTotalRows();
+
+                filterModel.PageSize = 10;
+
+
+                filterModel.TotalPages = (int)Math.Ceiling((double)totalRows / filterModel.PageSize);
+                // Assuming EmployeeRepository has a method to filter employees
+                var filteredEmployees = await _employeeRepository.Filter(
+                    filterModel.FirstName,
+                    filterModel.LastName,
+                    filterModel.DepartmentName,
+                    filterModel.HireDate,
+                    filterModel.SortField,
+                    filterModel.SortDesc,
+                    filterModel.Page,
+                    filterModel.PageSize);
+
+
+                var viewModels = filteredEmployees.Select(_mapper.Map<EmployeeViewModel>);
+                filterModel.Employees = viewModels;
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, $"Error: {ex.Message}");
+            }
+
+            return View(filterModel);
+        }
+
         // POST: Employees/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(EmployeeViewModel employeeViewModel)
+        public  async Task<IActionResult> Create(EmployeeViewModel employeeViewModel)
         {
             if (ModelState.IsValid)
             {
@@ -135,11 +182,14 @@ namespace DBSD_17037_16777_17286.Controllers
                 var person = new Person { FirstName = employeeViewModel.FirstName,LastName = employeeViewModel.LastName };
 
                 var createdPersonId = _personRepository.Insert(person);
+                employeeViewModel.PhotoFile = await HandlePhotoUpload(employeeViewModel.PhotoUpload);
+
                 var employee = new Employee
                 {
                     Id = employeeViewModel.Id,
                     ManagerId = employeeViewModel.ManagerId,
                     PersonId =createdPersonId,
+                    Photo = employeeViewModel.PhotoFile,
                     DepartmentId = employeeViewModel.DepartmentId,
                     HireDate = employeeViewModel.HireDate,
                     HourlyRate = employeeViewModel.HourlyRate,
@@ -210,6 +260,8 @@ namespace DBSD_17037_16777_17286.Controllers
                     person.FirstName = employeeViewModel.FirstName;
                     person.LastName = employeeViewModel.LastName;
                     _personRepository.Update(person);
+                    employeeViewModel.PhotoFile = await HandlePhotoUpload(employeeViewModel.PhotoUpload);
+
 
                     var employee = new Employee
                     {
@@ -218,6 +270,7 @@ namespace DBSD_17037_16777_17286.Controllers
                         PersonId = employeeViewModel.PersonId,
                         DepartmentId = employeeViewModel.DepartmentId,
                         HireDate = employeeViewModel.HireDate,
+                        Photo = employeeViewModel.PhotoFile,
                         HourlyRate = employeeViewModel.HourlyRate,
                         IsMarried = employeeViewModel.IsMarried
                     };
@@ -272,5 +325,52 @@ namespace DBSD_17037_16777_17286.Controllers
         {
             return _employeeRepository.GetById(id) != null;
         }
+        private async Task<byte[]> HandlePhotoUpload(IFormFile photoFile)
+        {
+            if (photoFile != null && photoFile.Length > 0)
+            {
+                using (var memoryStream = new MemoryStream())
+                {
+                    await photoFile.CopyToAsync(memoryStream);
+                    return memoryStream.ToArray(); // Convert the uploaded photo to byte array
+                }
+            }
+
+            return null; // Return null if no photo is uploaded
+        }
+
+        // Method to display image
+        private string GetImageSrc(byte[] imageData)
+        {
+            if (imageData != null && imageData.Length > 0)
+            {
+                var imageBase64Data = Convert.ToBase64String(imageData);
+                return $"data:image/png;base64,{imageBase64Data}";
+            }
+            return null;
+        }
+
+        private string GetImageMimeType(byte[] imageData)
+        {
+            byte[] pngSignature = new byte[] { 137, 80, 78, 71 }; // PNG signature bytes
+            byte[] jpgSignature = new byte[] { 255, 216, 255 }; // JPEG signature bytes
+
+            if (imageData.Take(4).SequenceEqual(pngSignature))
+            {
+                return "png";
+            }
+            else if (imageData.Take(3).SequenceEqual(jpgSignature))
+            {
+                return "jpeg";
+            }
+            else
+            {
+                // If the format is unknown or unsupported, default to PNG
+                return "png";
+            }
+        }
     }
+
+
+
 }
