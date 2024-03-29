@@ -4,6 +4,7 @@
     using global::DBSD_17037_16777_17286.DAL.Infrastructure;
     using global::DBSD_17037_16777_17286.DAL.Models;
     using Microsoft.EntityFrameworkCore;
+    using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
@@ -54,6 +55,11 @@
                     _context.Departments.Remove(entity);
                     _context.SaveChanges();
                 }
+            }
+
+            public Task<IEnumerable<Department>>? Filter(string firstName, string lastName, string departmentName, DateTime? hireDate, string sortField, bool sortDesc, int page, int pageSize)
+            {
+                throw new NotImplementedException();
             }
         }
     }

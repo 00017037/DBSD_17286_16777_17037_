@@ -78,6 +78,53 @@ namespace DBSD_17037_16777_17286.Controllers
             return View();
         }
 
+
+        //Filter: Employees/Filter 
+        public async Task<int> GetTotalRows()
+        {
+            var employees = await this._employeeRepository.GetAll();
+            int count = 0;
+            foreach (var item in employees)
+            {
+                count++;
+            }
+
+            return count;
+        }
+        public async Task<IActionResult> Filter(EmployeeFilterModel filterModel)
+        {
+            try
+            {
+              
+                int  totalRows = await GetTotalRows();
+
+                filterModel.PageSize = 10;
+
+
+                filterModel.TotalPages = (int)Math.Ceiling((double)totalRows / filterModel.PageSize);
+                // Assuming EmployeeRepository has a method to filter employees
+                var filteredEmployees = await _employeeRepository.Filter(
+                    filterModel.FirstName,
+                    filterModel.LastName,
+                    filterModel.DepartmentName,
+                    filterModel.HireDate,
+                    filterModel.SortField,
+                    filterModel.SortDesc,
+                    filterModel.Page,
+                    filterModel.PageSize);
+
+
+                var viewModels = filteredEmployees.Select(_mapper.Map<EmployeeViewModel>);
+                filterModel.Employees = viewModels;
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, $"Error: {ex.Message}");
+            }
+
+            return View(filterModel);
+        }
+
         // POST: Employees/Create
         [HttpPost]
         [ValidateAntiForgeryToken]

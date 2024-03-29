@@ -130,7 +130,54 @@ namespace DBSD_17037_16777_17286.DAL.Repositories
             var idParam = new SqlParameter("@Id", id);
             _context.Database.ExecuteSqlRaw("DeleteEmployee @Id", idParam);
         }
+        public async Task<IEnumerable<Employee>> Filter(string firstName,string lastName , string departmentName, DateTime? hireDate, string sortField, bool sortDesc, int page, int pageSize=10)
+        {
 
+            var employees = new List<Employee>();
+   
+            try
+            {
+                using (var command = _context.Database.GetDbConnection().CreateCommand())
+                {
+                    command.CommandText = "udpFilterEmployees";
+                    command.CommandType = CommandType.StoredProcedure;
+
+                    command.Parameters.Add(new SqlParameter("@FirstName", firstName ?? (object)DBNull.Value));
+                    command.Parameters.Add(new SqlParameter("@LastName", lastName ?? (object)DBNull.Value));
+                    command.Parameters.Add(new SqlParameter("@DepartmentName", departmentName ?? (object)DBNull.Value));
+
+                    command.Parameters.Add(new SqlParameter("@HireDate", hireDate ?? (object)DBNull.Value));
+                    command.Parameters.Add(new SqlParameter("@SortField", sortField));
+                    command.Parameters.Add(new SqlParameter("@SortDesc", sortDesc));
+                    command.Parameters.Add(new SqlParameter("@Page", page));
+                    command.Parameters.Add(new SqlParameter("@PageSize", pageSize));
+
+                    await _context.Database.OpenConnectionAsync();
+
+                    using (var reader = await command.ExecuteReaderAsync())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (await reader.ReadAsync())
+                            {
+                                var employee = MapEmployeeFromReader(reader);
+                                employees.Add(employee);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions
+                Console.WriteLine(ex.Message);
+            }
+
+            return employees;
+        }
+
+
+       
         private Employee MapEmployeeFromReader(DbDataReader reader)
         {
             var employee = new Employee

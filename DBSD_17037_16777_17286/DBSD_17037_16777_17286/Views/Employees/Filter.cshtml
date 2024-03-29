@@ -1,0 +1,152 @@
+﻿@model DBSD_17037_16777_17286.Models.EmployeeFilterModel
+
+@{
+    ViewData["Title"] = "Filter";
+}
+
+<h1>Filter</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Filter">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DepartmentName" class="control-label"></label>
+                <input asp-for="DepartmentName" class="form-control" />
+                <span asp-validation-for="DepartmentName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HireDate" class="control-label"></label>
+                <input asp-for="HireDate" class="form-control" />
+                <span asp-validation-for="HireDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SortField" class="control-label"></label>
+                <select asp-for="SortField" class="form-control">
+                    <option value="FirstName">First Name</option>
+                    <option value="LastName">Last Name</option>
+                    <option value="ManagerFirstName">Manager First Name</option>
+                    <option value="ManagerLastName">Manager Last Name</option>
+                    <option value="DepartmentName">Department Name</option>
+                    <option value="HourlyRate">Hourly Rate</option>
+                </select>
+                <span asp-validation-for="SortField" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SortDesc" class="control-label"></label>
+                <select asp-for="SortDesc" class="form-control">
+                    <option value="false">Ascending</option>
+                    <option value="true">Descending</option>
+                </select>
+                <span asp-validation-for="SortDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Filter" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                FirstName
+            </th>
+            <th>
+                LastName
+            </th>
+            <th>
+                HireDate
+            </th>
+            <th>
+                HourlyRate
+            </th>
+            <th>
+                IsMarried
+            </th>
+            <th>
+                ManagerName
+            </th>
+            <th>
+                Photo
+            </th>
+            <th>
+                Department
+            </th>
+
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Employees)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HireDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HourlyRate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsMarried)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ManagerName)
+                    @Html.DisplayFor(modelItem => item.ManagerSurname)
+                </td>
+
+                <td>
+                    @if (item.PhotoFile != null)
+                    {
+                        <img src="data:image/jpg;base64,@Convert.ToBase64String(item.PhotoFile)" alt="Employee Photo" width="100" />
+                    }
+                    else
+                    {
+                        <span>No Photo</span>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Depatment)
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    @Html.ActionLink("Prev", "Filter", new { Page = Model.Page - 1 })
+
+    @for (int p = 0; p < Model.TotalPages; p++)
+    {
+        <span style="margin-left: 10px;">
+            <!-- Adjust margin-left value as needed -->
+            @Html.ActionLink($"{p}", "Filter", new { Page = p })
+        </span>
+    }
+
+    @Html.ActionLink("Next", "Filter", new { Page = Model.Page + 1 })
+</div>

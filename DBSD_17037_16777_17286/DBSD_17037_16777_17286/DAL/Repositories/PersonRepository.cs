@@ -45,5 +45,10 @@ namespace DBSD_17037_16777_17286.DAL.Repositories
                 _context.SaveChanges();
             }
         }
+
+        public Task<IEnumerable<Person>>? Filter(string firstName, string lastName, string departmentName, DateTime? hireDate, string sortField, bool sortDesc, int page, int pageSize)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
