@@ -23,11 +23,14 @@ namespace DBSD_17037_16777_17286.Models
         [Display(Name = "Hourly Rate")]
         public decimal HourlyRate { get; set; }
 
+        [Display(Name = "Photo")]
+        public IFormFile? PhotoUpload { get; set; }
+
         [Display(Name = "Married")]
         public bool IsMarried { get; set; }
         [NotMapped]
         [Display(Name = "Photo")]
-        public IFormFile ? PhotoFile { get; set; }
+        public byte[] ? PhotoFile { get; set; }
 
         [Display(Name = "ManagerId")]
         public int? ManagerId { get; set; }

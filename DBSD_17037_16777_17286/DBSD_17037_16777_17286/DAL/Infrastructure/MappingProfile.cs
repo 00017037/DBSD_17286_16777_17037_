@@ -22,8 +22,7 @@ namespace DBSD_17037_16777_17286.DAL.Infrastructure
                 .ReverseMap();
 
 
-            CreateMap<EmployeeViewModel, Employee>()
-           .ForMember(dest => dest.Photo, opt => opt.MapFrom(src => ConvertToByteArray(src.PhotoFile)));
+           
         }
 
         private byte[] ConvertToByteArray(IFormFile file)
